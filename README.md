@@ -29,3 +29,25 @@ ecipe-page/
 │ ├── pancakes.jpg
 │ └── salad.jpg
 └── README.md # Project info
+
+
+## How to run locally
+1. Clone the repository:
+git clone https://github.com/landreea03/recipe-page.git
+
+2. Open `index.html` in your browser
+3. Click "Hide/Show Instructions" buttons to interact
+
+
+## Author
+Andreea Lila – Computer Science Student  
+- [GitHub](https://github.com/landreea03)
+
+## Skills Demonstrated
+HTML5 & Semantic Markup
+CSS Layouts, Grid, Flexbox
+JavaScript Interactivity
+Responsive Web Design
+Git & GitHub Pages Deployment
+
+
