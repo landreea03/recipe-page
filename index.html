@@ -3,68 +3,116 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple Omelette Recipe</title>
+  <title>My Recipe Collection</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>Simple Omelette Recipe</h1>
-  <p>An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p>
+  <h1>My Recipe Collection</h1>
+  <p>Delicious and easy-to-make recipes for any meal.</p>
 </header>
 
+<nav>
+  <ul>
+    <li><a href="#omelette">Omelette</a></li>
+    <li><a href="#pancakes">Pancakes</a></li>
+    <li><a href="#salad">Salad</a></li>
+  </ul>
+</nav>
+
 <main>
-  <section class="preparation-time">
-    <h2>Preparation Time</h2>
-    <ul>
-      <li>Total: Approximately 10 minutes</li>
-      <li>Preparation: 5 minutes</li>
-      <li>Cooking: 5 minutes</li>
-    </ul>
-  </section>
+  <!-- Omelette -->
+  <article id="omelette" class="recipe-card">
+    <h2>Simple Omelette</h2>
+    <figure>
+      <img src="assets/omelette.jpg" alt="Simple Omelette">
+      <figcaption>Quick and easy omelette</figcaption>
+    </figure>
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>2-3 eggs</li>
+        <li>Salt and pepper</li>
+        <li>Butter or oil</li>
+        <li>Optional fillings: cheese, vegetables, meats</li>
+      </ul>
+    </section>
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li>Beat eggs with salt and pepper.</li>
+        <li>Heat butter/oil in a pan.</li>
+        <li>Cook eggs evenly, add fillings.</li>
+        <li>Fold omelette and serve hot.</li>
+      </ol>
+    </section>
+    <button class="toggle-btn">Hide Instructions</button>
+  </article>
 
-  <section class="ingredients">
-    <h2>Ingredients</h2>
-    <ul>
-      <li>2-3 large eggs</li>
-      <li>Salt, to taste</li>
-      <li>Pepper, to taste</li>
-      <li>1 tablespoon of butter or oil</li>
-      <li>Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
-    </ul>
-  </section>
+  <!-- Pancakes -->
+  <article id="pancakes" class="recipe-card">
+    <h2>Fluffy Pancakes</h2>
+    <figure>
+      <img src="assets/pancakes.jpg" alt="Fluffy Pancakes">
+      <figcaption>Delicious breakfast pancakes</figcaption>
+    </figure>
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>1 cup flour</li>
+        <li>2 tbsp sugar</li>
+        <li>1 cup milk</li>
+        <li>1 egg</li>
+        <li>1 tsp baking powder</li>
+      </ul>
+    </section>
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li>Mix dry ingredients in a bowl.</li>
+        <li>Add milk and egg, whisk until smooth.</li>
+        <li>Cook on a non-stick pan until golden brown.</li>
+        <li>Serve with syrup or fruits.</li>
+      </ol>
+    </section>
+    <button class="toggle-btn">Hide Instructions</button>
+  </article>
 
-  <section class="instructions">
-    <h2>Instructions</h2>
-    <ol>
-      <li><strong>Beat the eggs:</strong> In a bowl, beat the eggs with a pinch of salt and pepper until well mixed. You can add a tablespoon of water or milk for a fluffier texture.</li>
-      <li><strong>Heat the pan:</strong> Place a non-stick frying pan over medium heat and add butter or oil.</li>
-      <li><strong>Cook the omelette:</strong> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to coat evenly.</li>
-      <li><strong>Add fillings (optional):</strong> When the eggs begin to set at the edges but are slightly runny in the middle, sprinkle your chosen fillings over one half of the omelette.</li>
-      <li><strong>Fold and serve:</strong> Carefully fold the omelette over the fillings. Let cook for another minute, then slide onto a plate.</li>
-      <li><strong>Enjoy:</strong> Serve hot, with additional salt and pepper if needed.</li>
-    </ol>
-  </section>
-
-  <section class="nutrition">
-    <h2>Nutrition</h2>
-    <ul>
-      <li>Calories: 277 kcal</li>
-      <li>Carbs: 0 g</li>
-      <li>Protein: 20 g</li>
-      <li>Fat: 22 g</li>
-    </ul>
-  </section>
-  <figure>
-    <img src="assets/omelette.jpg" alt="A simple omelette on a plate">
-    <figcaption>Delicious Simple Omelette</figcaption>
-  </figure>
-  
+  <!-- Salad -->
+  <article id="salad" class="recipe-card">
+    <h2>Fresh Garden Salad</h2>
+    <figure>
+      <img src="assets/salad.jpg" alt="Fresh Garden Salad">
+      <figcaption>Healthy and colorful salad</figcaption>
+    </figure>
+    <section class="ingredients">
+      <h3>Ingredients</h3>
+      <ul>
+        <li>Lettuce</li>
+        <li>Tomatoes</li>
+        <li>Cucumber</li>
+        <li>Carrots</li>
+        <li>Olive oil & vinegar</li>
+      </ul>
+    </section>
+    <section class="instructions">
+      <h3>Instructions</h3>
+      <ol>
+        <li>Wash and chop all vegetables.</li>
+        <li>Mix in a bowl.</li>
+        <li>Drizzle with olive oil and vinegar.</li>
+        <li>Toss and serve.</li>
+      </ol>
+    </section>
+    <button class="toggle-btn">Hide Instructions</button>
+  </article>
 </main>
 
 <footer>
   <p>Created by Andreea Lila</p>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
