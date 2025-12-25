@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f0;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffcc80;
+    text-align: center;
+    padding: 1.5rem;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .ingredients, .instructions {
+    margin-bottom: 2rem;
+  }
+  
+  ul, ol {
+    padding-left: 1.5rem;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #eee;
+    margin-top: 2rem;
+  }
+  
