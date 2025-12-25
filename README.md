@@ -15,7 +15,8 @@ A modern, responsive recipe website built with HTML, CSS, and JavaScript, showca
 ## Demo
 
 View the live website here:  
-[https://landreea03.github.io/recipe-page/](https://landreea03.github.io/recipe-page/)
+https://landreea03.github.io/recipe-page/
+
 
 ## Project Structure
 
